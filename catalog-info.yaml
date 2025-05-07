@@ -5,7 +5,6 @@ metadata:
   description: A Test app integrated with CircleCI
   annotations:
     circleci.com/project-slug: github/akshayrathi4991/backstage-circleci-integration
-    # github.com/project-slug: akshayrathi4991/backstage-circleci-integration
 spec:
   type: service
   lifecycle: production
