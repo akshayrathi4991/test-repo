@@ -1,8 +1,15 @@
-apiVersion: backstage.io/v1alpha1
+apiVersion: backstage.io/v1beta1
 kind: Component
 metadata:
-  name: backstage-circleci-integration-test
-  description: A Test app integrated with CircleCI
+  name: auth-service
+  description: authentication service
+  tags:
+    - javascript
+  links:
+    - url: https://google.com
+      title: Admin Dashboard
+      icon: dashboard
+      type: admin-dashboard
 spec:
   type: service
   lifecycle: production
